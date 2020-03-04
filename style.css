@@ -6,6 +6,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: rgb(190, 190, 200);
 }
 
 .app {
@@ -26,7 +27,7 @@ header p {
 }
 
 .pads {
-  background: lightblue;
+  background: rgb(0, 0, 0);
   width: 100%;
   display: flex;
 }
@@ -34,24 +35,27 @@ header p {
   height: 100px;
   width: 100px;
   flex: 1;
+  margin: 3px 2px;
+  border-radius: 3px;
+  border-left: 1px solid white;
 }
 .pad1 {
-  background: #60d394;
+  background: #ffdd81;
 }
 .pad2 {
-  background: #d36060;
+  background: #00205a;
 }
 .pad3 {
-  background: #c060d3;
+  background: #7a6401;
 }
 .pad4 {
-  background: #d3d160;
+  background: #d1eaff;
 }
 .pad5 {
-  background: #606bd3;
+  background: #e683ff;
 }
 .pad6 {
-  background: #60c2d3;
+  background: #45ffc7;
 }
 
 .visual > div {
@@ -63,6 +67,12 @@ header p {
   transform: scale(1);
   z-index: -1;
 }
+
+canvas{
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
 
 @keyframes jump {
   0% {
